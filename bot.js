@@ -2,6 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 var oyun1 = 'oyun'
+var oyun2 = 'oyuna'
 var lol1 = 'lol';
 var lol2 = 'Lol';
 var lol3 = 'LoL';
@@ -59,6 +60,10 @@ client.on('message', msg => {
   }
 
   if (msg.content.startsWith(oyun1)) {
+    msg.reply(':sparkles:**LoL**:sparkles: Oynamak İçin Birilerini Arıyor! :video_game: | Oto Etiket: :speaking_head: @here');
+  }
+
+  if (msg.content.startsWith(oyun2)) {
     msg.reply(':sparkles:**LoL**:sparkles: Oynamak İçin Birilerini Arıyor! :video_game: | Oto Etiket: :speaking_head: @here');
   }
 
