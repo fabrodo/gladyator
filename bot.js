@@ -117,4 +117,4 @@ client.on('message', msg => {
 
 });
 
-client.login(token.es);
+client.login(process.env.BOT_TOKEN);
