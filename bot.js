@@ -104,4 +104,4 @@ client.on('message', msg => {
 
 });
 
-client.login(process.evn.CLIENT_TOKEN);
+client.login(token.es);
