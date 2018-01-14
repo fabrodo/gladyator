@@ -27,6 +27,14 @@ client.on('message', msg => {
     msg.reply('Aleyküm Selam Canım! :smile:');
   }
   
+  if (msg.content.toLowerCase() === 'mrb') {
+    msg.reply('Merhaba! :hugging:');
+  }
+  
+  if (msg.content.toLowerCase() === 'merhaba') {
+    msg.reply('Merhaba! :hugging:');
+  }
+  
   if (msg.content.toLowerCase() === 'slm') {
     msg.reply('Aleyküm Selam Canım! :smile:');
   }
