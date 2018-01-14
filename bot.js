@@ -104,4 +104,4 @@ client.on('message', msg => {
 
 });
 
-client.login(process.evn.BOT_TOKEN);
+client.login(process.evn.CLIENT_TOKEN);
