@@ -17,7 +17,7 @@ var pubg3 = 'PUBG'
 client.on('ready', () => {
   console.log(`Bot Durumu: ${client.user.tag} Aktif!`);
   
-  client.user.setStatus('Online')
+  client.user.setStatus('dnd')
   client.user.setGame('Hava Çok Soğuk Kalın Giyin!', 'https://www.twitch.tv/jahrein');
 
 });
