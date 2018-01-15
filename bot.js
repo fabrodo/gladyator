@@ -34,7 +34,7 @@ client.on('message', msg => {
     msg.reply('Aleyküm Selam Canım! :smile:');
   }
   
-  if (msg.content.toLowerCase() === 'selanın aleyküm') {
+  if (msg.content.toLowerCase() === 'selamın aleyküm') {
     msg.reply('Aleyküm Selam Canım! :smile:');
   }
   
