@@ -27,6 +27,21 @@ client.on('message', msg => {
     msg.reply('Aleyküm Selam Canım! :smile:');
   }
   
+  if (msg.content.toLowerCase() === 'sea') {
+    msg.reply('Aleyküm Selam Canım! :smile:');
+  }
+  if (msg.content.toLowerCase() === 's.a') {
+    msg.reply('Aleyküm Selam Canım! :smile:');
+  }
+  
+  if (msg.content.toLowerCase() === 'selanın aleyküm') {
+    msg.reply('Aleyküm Selam Canım! :smile:');
+  }
+  
+  if (msg.content.toLowerCase() === 'selamin aleykum') {
+    msg.reply('Aleyküm Selam Canım! :smile:');
+  }
+  
   if (msg.content.toLowerCase() === 'mrb') {
     msg.reply('Merhaba! :hugging:');
   }
